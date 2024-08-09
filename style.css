@@ -1,0 +1,121 @@
+body {
+  background-color: #000;
+  font-family: 65.5%;
+}
+
+/*Font do título*/
+@font-face {
+  font-family: "Inter-VariableFont";
+  src: url(Inter-VariableFont_slnt\wght.ttf);
+}
+
+.conteiner {
+  position: relative;
+  background-color: #181818;
+  margin: 4rem auto;
+  max-width: 24.4rem;
+  min-height: 39rem;
+  border-radius: 1rem;
+}
+
+img {
+  border-radius: 6rem;
+  margin-left: 8.4rem;
+  margin-top: 3rem;
+  width: 6rem;
+}
+
+/*Título*/
+#Inter-VariableFont {
+  font-family: Inter-VariableFont;
+  color: #fff;
+  margin: 1rem 0rem 0rem 5.4rem;
+  font-size: 1.9rem;
+}
+
+#local {
+  font-family: Inter-VariableFont;
+  color: #b3f813;
+  margin: 0.5rem 0rem 0rem 5.4rem;
+  font-size: 1rem;
+}
+
+#profissao {
+  font-family: Inter-VariableFont;
+  color: #cecccc;
+  margin: 1rem 0rem 0.8rem 2.5rem;
+  font-size: 1rem;
+}
+
+#git button {
+  margin: 1rem 0rem 0rem 2rem;
+  padding: 1rem 0rem 1rem 0;
+  cursor: pointer;
+  width: 20rem;
+  border-radius: 0.8rem;
+  border-style: none;
+  border-image: none;
+  text-decoration: none;
+}
+
+button {
+  color: #fff;
+  background-color: #303030;
+}
+
+button:active {
+  background-color: #b3f813;
+  color: #000;
+  font-weight: bold;
+}
+
+@media (max-width: 300px) {
+  .conteiner {
+    position: relative;
+    background-color: #181818;
+    margin: 4rem auto;
+    max-width: 24.4rem;
+    min-height: 39rem;
+    border-radius: 1rem;
+  }
+
+  img {
+    border-radius: 6rem;
+    margin-left: 6.5rem;
+    margin-top: 3rem;
+    width: 6rem;
+  }
+
+  /*Título*/
+  #Inter-VariableFont {
+    font-family: Inter-VariableFont;
+    color: #fff;
+    margin: 1rem 0rem 0rem 4rem;
+    font-size: 1.9rem;
+  }
+
+  #local {
+    font-family: Inter-VariableFont;
+    color: #b3f813;
+    margin: 0.5rem 0rem 0rem 4rem;
+    font-size: 1rem;
+  }
+
+  #profissao {
+    font-family: Inter-VariableFont;
+    color: #cecccc;
+    margin: 1rem 0rem 0.8rem 1.8rem;
+    font-size: 0.9rem;
+  }
+
+  #git button {
+    margin: 1rem 0rem 0rem 2rem;
+    padding: 1rem 0rem 1rem 0;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 0.8rem;
+    border-style: none;
+    border-image: none;
+    text-decoration: none;
+  }
+}
